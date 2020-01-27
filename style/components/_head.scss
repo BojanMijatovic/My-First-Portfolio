@@ -1,0 +1,17 @@
+@import './general';
+
+nav {
+  .brand-logo {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  ul {
+    li {
+      a {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
