@@ -57,4 +57,30 @@ html {
   font-size: 62.5%;
   font-family: 'Fira Sans Condensed', sans-serif; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#work h3 {
+  font-weight: 800;
+  color: #1a237e;
+  letter-spacing: 0.2rem; }
+#work .card-image .card-title {
+  color: #e8eaf6; }
+#work .card-content p {
+  font-size: 1.4rem;
+  color: #1a237e; }
+#work .card-action a {
+  color: #1a237e;
+  font-size: 1.2rem;
+  transition: all 0.1s ease-in-out; }
+#work .card-action a:hover,
+#work .card-action a:active {
+  font-weight: 600; }
+
 /*# sourceMappingURL=mainStyle.css.map */

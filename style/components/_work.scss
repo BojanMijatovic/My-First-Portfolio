@@ -1,0 +1,30 @@
+@import './general';
+
+#work {
+  h3 {
+    font-weight: 800;
+    color: $main-color-dark;
+    letter-spacing: 0.2rem;
+  }
+
+  .card-image {
+    .card-title {
+      color: $main-color-light;
+    }
+  }
+
+  .card-content p {
+    font-size: 1.4rem;
+    color: $main-color-dark;
+  }
+
+  .card-action a {
+    color: $main-color-dark;
+    font-size: 1.2rem;
+    transition: all 0.1s ease-in-out;
+  }
+  .card-action a:hover,
+  .card-action a:active {
+    font-weight: 600;
+  }
+}
