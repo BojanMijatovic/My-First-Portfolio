@@ -41,8 +41,11 @@ html {
 
 #about h2 {
   font-weight: 600; }
+  #about h2 span {
+    color: #e8eaf6; }
 #about p {
   font-size: 1.4rem;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  color: #e8eaf6; }
 
 /*# sourceMappingURL=mainStyle.css.map */

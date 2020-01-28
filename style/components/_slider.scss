@@ -3,9 +3,14 @@
 #about {
   h2 {
     font-weight: 600;
+
+    span {
+      color: $main-color-light;
+    }
   }
   p {
     font-size: 1.4rem;
     padding: 0.5rem;
+    color: $main-color-light;
   }
 }
