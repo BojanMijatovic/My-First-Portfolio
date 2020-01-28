@@ -17,7 +17,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif; }
 
 nav .brand-logo {
-  font-weight: 600;
+  font-weight: 800;
   text-transform: uppercase;
   color: #ffffff; }
 nav ul li a {
@@ -47,5 +47,14 @@ html {
   font-size: 1.4rem;
   padding: 0.5rem;
   color: #e8eaf6; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
 
 /*# sourceMappingURL=mainStyle.css.map */
