@@ -18,9 +18,31 @@ html {
 
 nav .brand-logo {
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #ffffff; }
 nav ul li a {
   font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff; }
+nav .button-collapse i {
+  color: #ffffff; }
+
+.side-nav li a {
+  color: #000000; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#about h2 {
   font-weight: 600; }
+#about p {
+  font-size: 1.4rem;
+  padding: 0.5rem; }
 
 /*# sourceMappingURL=mainStyle.css.map */
