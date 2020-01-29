@@ -28,10 +28,10 @@ nav .button-collapse i {
   color: #ffffff; }
 
 .side-nav li a {
+  color: #7d82d5; }
+.side-nav li a:hover,
+.side-nav li a:active {
   color: #1a237e; }
-.side-nav li a:active,
-.side-nav li a:hover {
-  color: red; }
 
 * {
   box-sizing: border-box;
