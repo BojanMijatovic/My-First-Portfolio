@@ -26,7 +26,11 @@ nav {
 .side-nav {
   li {
     a {
-      color: $main-black-color;
+      color: $main-color-dark;
+    }
+    a:active,
+    a:hover {
+      color: red;
     }
   }
 }

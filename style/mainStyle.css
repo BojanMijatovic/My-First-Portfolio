@@ -28,7 +28,10 @@ nav .button-collapse i {
   color: #ffffff; }
 
 .side-nav li a {
-  color: #000000; }
+  color: #1a237e; }
+.side-nav li a:active,
+.side-nav li a:hover {
+  color: red; }
 
 * {
   box-sizing: border-box;
@@ -100,5 +103,53 @@ html {
   #skills .card-reveal .card-title {
     color: #1a237e;
     font-size: 2rem; }
+  #skills .card-reveal p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #1a237e; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#contact h3 {
+  color: #7d82d5;
+  font-weight: 600; }
+#contact .card-panel {
+  /* label focus color */
+  /* label underline focus color */
+  /* icon prefix focus color */
+  /* valid color */ }
+  #contact .card-panel h4 {
+    color: #7d82d5; }
+  #contact .card-panel .input-field i {
+    color: #7d82d5; }
+  #contact .card-panel #icon_prefix {
+    color: #1a237e;
+    border-bottom: #e8eaf6 solid 1px;
+    font-size: 1.2rem; }
+  #contact .card-panel .input-field input[type='text']:focus + label {
+    color: #1a237e; }
+  #contact .card-panel .input-field input[type='text']:focus {
+    border-bottom: 1px solid #e8eaf6;
+    box-shadow: 0 1px 0 0 #e8eaf6; }
+  #contact .card-panel .input-field .prefix.active {
+    color: #e8eaf6; }
+  #contact .card-panel .input-field input[type='text'].valid {
+    border-bottom: 1px solid #1a237e;
+    box-shadow: 0 1px 0 0 #1a237e; }
+  #contact .card-panel .small-btn {
+    color: #1a237e;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: #e8eaf6;
+    border: none;
+    margin: 1rem;
+    border-radius: 0.8rem; }
 
 /*# sourceMappingURL=mainStyle.css.map */
