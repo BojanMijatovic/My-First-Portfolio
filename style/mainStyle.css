@@ -150,6 +150,20 @@ html {
     background: #e8eaf6;
     border: none;
     margin: 1rem;
-    border-radius: 0.8rem; }
+    border-radius: 0.8rem;
+    transition: all 0.2s ease-in-out; }
+  #contact .card-panel .small-btn:active,
+  #contact .card-panel .small-btn:hover {
+    color: #e8eaf6;
+    background: #7d82d5; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
 
 /*# sourceMappingURL=mainStyle.css.map */

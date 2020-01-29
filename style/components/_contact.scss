@@ -50,6 +50,12 @@
       border: none;
       margin: 1rem;
       border-radius: 0.8rem;
+      transition: all 0.2s ease-in-out;
+    }
+    .small-btn:active,
+    .small-btn:hover {
+      color: $main-color-light;
+      background: $main-color;
     }
   }
 }
