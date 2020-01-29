@@ -2,7 +2,7 @@
 
 #work {
   h3 {
-    font-weight: 800;
+    font-weight: 600;
     color: $main-color-dark;
     letter-spacing: 0.2rem;
   }
@@ -25,6 +25,6 @@
   }
   .card-action a:hover,
   .card-action a:active {
-    font-weight: 600;
+    color: $main-color;
   }
 }

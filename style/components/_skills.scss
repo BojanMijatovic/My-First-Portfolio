@@ -1,0 +1,17 @@
+@import './general';
+
+#skills {
+  background: $main-color;
+
+  h3 {
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .card-reveal {
+    .card-title {
+      color: $main-color-dark;
+      font-size: 2rem;
+    }
+  }
+}

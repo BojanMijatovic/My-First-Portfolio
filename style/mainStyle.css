@@ -67,7 +67,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif; }
 
 #work h3 {
-  font-weight: 800;
+  font-weight: 600;
   color: #1a237e;
   letter-spacing: 0.2rem; }
 #work .card-image .card-title {
@@ -81,6 +81,24 @@ html {
   transition: all 0.1s ease-in-out; }
 #work .card-action a:hover,
 #work .card-action a:active {
-  font-weight: 600; }
+  color: #7d82d5; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#skills {
+  background: #7d82d5; }
+  #skills h3 {
+    font-weight: 600;
+    letter-spacing: 2px; }
+  #skills .card-reveal .card-title {
+    color: #1a237e;
+    font-size: 2rem; }
 
 /*# sourceMappingURL=mainStyle.css.map */
